@@ -11,7 +11,7 @@ recognizer.interimResults = true;
 recognizer.continuous = true;
 
 // Set the language of the recognizer
-recognizer.lang = 'de-DE';
+recognizer.lang = lang_select;
 
 recognizer.onend = function() {
     recognizing = false;
